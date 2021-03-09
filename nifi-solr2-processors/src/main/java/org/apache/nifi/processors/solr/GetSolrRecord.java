@@ -194,7 +194,7 @@ public class GetSolrRecord extends SolrProcessor {
             throw new ProcessException(e);
         }
     }
-   
+
     @Override
 	protected void doOnTrigger(ProcessContext context, ProcessSession session) throws ProcessException {
         FlowFile input = null;
